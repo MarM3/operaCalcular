@@ -11,6 +11,8 @@ function multiplica() {
         alert("El segundo número introducido no es correcto.");
         return false;
     }
+    var ver = document.getElementById("mostrar");
+    ver.style.display = "block";
     document.getElementById("resultado").innerHTML = num1 * num2;
 }
 
@@ -27,6 +29,8 @@ function divide() {
         alert("El segundo número introducido no es correcto.");
         return false;
     }
+    var ver = document.getElementById("mostrar");
+    ver.style.display = "block";
     document.getElementById("resultado").innerHTML = num1 / num2;
 }
 
